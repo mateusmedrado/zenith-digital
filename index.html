@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zenith Digital: educação, tecnologia e oportunidades para as profissões do futuro.">
+  <title>Zenith Digital | Educação e Futuro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress-line" id="progress-line"></div>
+
+  <header class="header">
+    <a href="#inicio" class="brand">
+      <span class="brand-icon">Z</span>
+      <span>ZENITH<span class="cyan"> DIGITAL</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio">Início</a>
+      <a href="#educacao">Educação</a>
+      <a href="#profissoes">Profissões</a>
+      <a href="#explorar">Explorar</a>
+      <a href="#comparador">Comparador</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+
+    <button class="theme-toggle" id="tema-toggle">☀ Tema claro</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="live-dot"></span> EDUCAÇÃO • TECNOLOGIA • OPORTUNIDADES</span>
+        <h1>O futuro do trabalho começa com a <span class="gradient-text">educação de hoje.</span></h1>
+        <p class="hero-description">
+          Descubra novas profissões, desenvolva habilidades e encontre caminhos para construir um futuro com mais oportunidades.
+        </p>
+        <div class="hero-actions">
+          <a href="#educacao" class="btn btn-primary">Explorar oportunidades <span>→</span></a>
+          <a href="#profissoes" class="btn btn-outline">Conhecer profissões</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>15+</strong><span>Carreiras exploradas</span></div>
+          <div><strong>5</strong><span>Áreas profissionais</span></div>
+          <div><strong>1</strong><span>Futuro de oportunidades</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-center">
+          <div class="hero-symbol">Z</div>
+          <span>CONHECIMENTO</span>
+          <strong>TRANSFORMA<br>O FUTURO</strong>
+        </div>
+        <div class="floating-card float-top">
+          <span class="float-icon">✦</span>
+          <div><strong>Aprenda</strong><small>Novas habilidades</small></div>
+        </div>
+        <div class="floating-card float-bottom">
+          <span class="float-icon">↗</span>
+          <div><strong>Descubra</strong><small>Novas oportunidades</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mission-section">
+      <div class="section-heading">
+        <span class="eyebrow">NOSSA MISSÃO</span>
+        <h2>Conhecimento que abre <span class="gradient-text">caminhos.</span></h2>
+        <p>Acreditamos que a educação é uma das principais ferramentas para transformar vidas e preparar o Brasil para as mudanças do mundo do trabalho.</p>
+      </div>
+
+      <div class="mission-grid">
+        <article class="mission-card">
+          <div class="card-icon">◎</div>
+          <h3>Educação acessível</h3>
+          <p>Incentivar o acesso à formação e ao conhecimento, independentemente da região ou condição social.</p>
+        </article>
+        <article class="mission-card">
+          <div class="card-icon">⌘</div>
+          <h3>Inovação tecnológica</h3>
+          <p>Preparar pessoas para compreender e utilizar as tecnologias que estão transformando o trabalho.</p>
+        </article>
+        <article class="mission-card">
+          <div class="card-icon">♧</div>
+          <h3>Desenvolvimento sustentável</h3>
+          <p>Valorizar profissões e soluções que contribuam para um futuro ambientalmente responsável.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education-section" id="educacao">
+      <div class="section-heading">
+        <span class="eyebrow">CENTRAL DE APRENDIZAGEM</span>
+        <h2>Seu próximo passo começa <span class="gradient-text">aprendendo.</span></h2>
+        <p>Explore áreas de conhecimento e descubra quais habilidades podem ajudar na sua formação profissional.</p>
+      </div>
+
+      <div class="learning-banner">
+        <div>
+          <span class="eyebrow">APRENDIZAGEM CONTÍNUA</span>
+          <h3>O conhecimento é uma oportunidade que acompanha você.</h3>
+          <p>Comece com conceitos básicos, avance no seu ritmo e construa sua jornada de aprendizagem.</p>
+          <a href="#cursos" class="btn btn-primary">Ver trilhas de aprendizagem →</a>
+        </div>
+        <div class="learning-art">
+          <div class="book-shape">✧</div>
+          <span>APRENDER</span>
+          <strong>TRANSFORMA</strong>
+        </div>
+      </div>
+
+      <div class="section-subheading" id="cursos">
+        <div><span class="eyebrow">TRILHAS DE CONHECIMENTO</span><h3>Explore o que você pode aprender</h3></div>
+        <span class="small-note">Conteúdos e sugestões de aprendizagem</span>
+      </div>
+
+      <div class="filter-row course-filters">
+        <button class="filter-btn active" data-level="todos">Todas</button>
+        <button class="filter-btn" data-level="iniciante">Iniciante</button>
+        <button class="filter-btn" data-level="intermediario">Intermediário</button>
+        <button class="filter-btn" data-level="avancado">Avançado</button>
+      </div>
+      <div class="course-grid" id="course-grid"></div>
+    </section>
+
+    <section class="section professions-section" id="profissoes">
+      <div class="section-heading">
+        <span class="eyebrow">CARREIRAS EM TRANSFORMAÇÃO</span>
+        <h2>Conheça as <span class="gradient-text">profissões do futuro.</span></h2>
+        <p>Explore diferentes carreiras, suas áreas de atuação, formações e habilidades necessárias.</p>
+      </div>
+
+      <div class="profession-tools">
+        <input type="search" id="profession-search" placeholder="⌕  Pesquise uma profissão...">
+        <div class="filter-row" id="profession-filters">
+          <button class="filter-btn active" data-area="todas">Todas</button>
+          <button class="filter-btn" data-area="tecnologia">Tecnologia</button>
+          <button class="filter-btn" data-area="ciencia">Ciência</button>
+          <button class="filter-btn" data-area="ambiente">Meio ambiente</button>
+          <button class="filter-btn" data-area="espaco">Espaço</button>
+          <button class="filter-btn" data-area="criatividade">Criatividade</button>
+        </div>
+      </div>
+      <div class="profession-grid" id="profession-grid"></div>
+      <p class="results-count" id="results-count"></p>
+    </section>
+
+    <section class="section exploration-section" id="explorar">
+      <div class="section-heading">
+        <span class="eyebrow">EXPLORANDO O FUTURO</span>
+        <h2>O trabalho está <span class="gradient-text">evoluindo.</span></h2>
+        <p>Entenda como as transformações tecnológicas, sociais e ambientais podem mudar o mercado de trabalho.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item"><span>1980</span><div><h3>Automação industrial</h3><p>Máquinas e sistemas automatizados começam a transformar atividades produtivas.</p></div></div>
+        <div class="timeline-item"><span>1990</span><div><h3>Expansão da internet</h3><p>A comunicação digital amplia o acesso à informação e cria novas atividades profissionais.</p></div></div>
+        <div class="timeline-item"><span>HOJE</span><div><h3>Transformação digital</h3><p>Inteligência artificial, dados e conectividade transformam diferentes setores.</p></div></div>
+        <div class="timeline-item future"><span>2030</span><div><h3>Novas competências</h3><p>Possíveis cenários de maior integração entre pessoas, tecnologia e sustentabilidade.</p></div></div>
+        <div class="timeline-item future"><span>2040</span><div><h3>Novas possibilidades</h3><p>Um futuro que dependerá das escolhas sociais, educacionais e tecnológicas feitas hoje.</p></div></div>
+      </div>
+      <p class="small-note">2030 e 2040 representam cenários possíveis, não previsões garantidas.</p>
+    </section>
+
+    <section class="section comparison-section" id="comparador">
+      <div class="section-heading">
+        <span class="eyebrow">DESCUBRA AS DIFERENÇAS</span>
+        <h2>Compare duas <span class="gradient-text">carreiras.</span></h2>
+        <p>Escolha duas profissões e observe suas características. A comparação é informativa e não determina qual carreira é melhor.</p>
+      </div>
+      <div class="comparison-panel">
+        <div class="compare-selects">
+          <div><label for="career-one">Primeira profissão</label><select id="career-one"></select></div>
+          <div class="versus">VS</div>
+          <div><label for="career-two">Segunda profissão</label><select id="career-two"></select></div>
+        </div>
+        <div id="comparison-result" class="comparison-result"></div>
+      </div>
+    </section>
+
+    <section class="section impact-section">
+      <div class="section-heading">
+        <span class="eyebrow">EDUCAÇÃO E DESENVOLVIMENTO</span>
+        <h2>Um futuro com oportunidades para <span class="gradient-text">todo o Brasil.</span></h2>
+        <p>O acesso à educação e à formação profissional precisa alcançar diferentes regiões e realidades.</p>
+      </div>
+      <div class="impact-grid">
+        <article class="impact-card"><span>01</span><h3>Região Norte</h3><p>Valorizar a biodiversidade, a pesquisa ambiental e soluções sustentáveis.</p><small>Possíveis áreas: meio ambiente e biotecnologia.</small></article>
+        <article class="impact-card"><span>02</span><h3>Região Nordeste</h3><p>Ampliar a formação tecnológica e incentivar energias renováveis.</p><small>Possíveis áreas: tecnologia e energia limpa.</small></article>
+        <article class="impact-card"><span>03</span><h3>Região Centro-Oeste</h3><p>Promover inovação no campo, pesquisa e uso responsável de recursos.</p><small>Possíveis áreas: agritecnologia e ciência.</small></article>
+        <article class="impact-card"><span>04</span><h3>Região Sudeste</h3><p>Fortalecer a formação em tecnologia, indústria, pesquisa e inovação.</p><small>Possíveis áreas: inteligência artificial e robótica.</small></article>
+        <article class="impact-card"><span>05</span><h3>Região Sul</h3><p>Incentivar tecnologia, sustentabilidade e desenvolvimento industrial.</p><small>Possíveis áreas: automação e engenharia.</small></article>
+      </div>
+      <p class="small-note">Exemplos de possibilidades relacionadas a características regionais, não um levantamento de vagas ou demanda atual.</p>
+    </section>
+
+    <section class="section dilemmas-section">
+      <div class="section-heading">
+        <span class="eyebrow">PENSE, EXPLORE E PARTICIPE</span>
+        <h2>Os desafios da <span class="gradient-text">tecnologia.</span></h2>
+        <p>As transformações tecnológicas trazem oportunidades, mas também levantam questões importantes.</p>
+      </div>
+      <div class="dilemma-grid">
+        <article class="dilemma-card"><h3>Inteligência artificial</h3><p>Como preparar trabalhadores para mudanças nas atividades profissionais?</p><button class="text-button dilemma-btn" data-answer="A educação continuada, a qualificação e o desenvolvimento de novas habilidades ajudam as pessoas a acompanhar as mudanças.">Ver reflexão →</button><div class="dilemma-answer"></div></article>
+        <article class="dilemma-card"><h3>Privacidade digital</h3><p>Como utilizar dados e tecnologia respeitando os direitos das pessoas?</p><button class="text-button dilemma-btn" data-answer="É importante compreender a proteção de dados, o consentimento, a segurança digital e o uso responsável das informações.">Ver reflexão →</button><div class="dilemma-answer"></div></article>
+        <article class="dilemma-card"><h3>Desigualdade de acesso</h3><p>Como garantir que mais pessoas tenham acesso à formação tecnológica?</p><button class="text-button dilemma-btn" data-answer="Ampliar a conectividade, oferecer formação acessível e fortalecer iniciativas educacionais pode ajudar a diminuir barreiras.">Ver reflexão →</button><div class="dilemma-answer"></div></article>
+        <article class="dilemma-card"><h3>Ética tecnológica</h3><p>Como garantir que a inovação respeite as pessoas e a sociedade?</p><button class="text-button dilemma-btn" data-answer="Transparência, responsabilidade, inclusão e participação social devem fazer parte do desenvolvimento tecnológico.">Ver reflexão →</button><div class="dilemma-answer"></div></article>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="quiz-container">
+        <div class="quiz-intro" id="quiz-intro">
+          <span class="eyebrow">DESCUBRA SEU CAMINHO</span>
+          <div class="quiz-icon">✧</div>
+          <h2>Qual área combina com seus <span class="gradient-text">interesses?</span></h2>
+          <p>Responda a 7 perguntas e conheça áreas profissionais que podem despertar sua curiosidade.</p>
+          <button class="btn btn-primary" id="start-quiz">Começar quiz →</button>
+        </div>
+        <div class="quiz-game hidden" id="quiz-game">
+          <div class="quiz-top"><span id="quiz-count">Pergunta 1 de 7</span><span id="quiz-percent">14%</span></div>
+          <div class="quiz-progress"><div id="quiz-progress-fill"></div></div>
+          <h3 id="quiz-question"></h3>
+          <div id="quiz-options" class="quiz-options"></div>
+          <button class="btn btn-primary" id="next-question" disabled>Próxima pergunta →</button>
+        </div>
+        <div class="quiz-result hidden" id="quiz-result">
+          <span class="eyebrow">SEU RESULTADO</span>
+          <div class="quiz-icon">✦</div>
+          <h2>Seu interesse está em <span id="quiz-area" class="gradient-text"></span></h2>
+          <p id="quiz-description"></p>
+          <h3>Profissões para explorar</h3>
+          <div id="quiz-careers" class="quiz-careers"></div>
+          <button class="btn btn-outline" id="restart-quiz">Refazer quiz ↻</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="about-content">
+        <span class="eyebrow">SOBRE O PROJETO</span>
+        <h2>Conhecimento para construir <span class="gradient-text">possibilidades.</span></h2>
+        <p>A Zenith Digital é uma empresa fictícia criada para o projeto TCA 2026. A proposta é incentivar a educação, a sustentabilidade e o acesso a oportunidades de formação e trabalho no Brasil.</p>
+        <p>O projeto apresenta profissões emergentes, habilidades, caminhos de aprendizagem e reflexões sobre os desafios do futuro do trabalho.</p>
+      </div>
+      <div class="about-details">
+        <div><span>PROJETO</span><strong>Profissões do Futuro — TCA 2026</strong></div>
+        <div><span>EMPRESA</span><strong>Zenith Digital</strong></div>
+        <div><span>ESCOLA</span><strong>EMEF Eda Terezinha Chica Medeiros</strong></div>
+        <div><span>INTEGRANTES</span><strong>Mateus, Guilherme, Jhonata, Miguel e Arthur</strong></div>
+        <div><span>OBJETIVO</span><strong>Incentivar educação, sustentabilidade e oportunidades.</strong></div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <span class="eyebrow">O FUTURO COMEÇA AGORA</span>
+      <h2>Aprender hoje.<br><span class="gradient-text">Transformar amanhã.</span></h2>
+      <p>O primeiro passo para novas oportunidades é o conhecimento.</p>
+      <a href="#educacao" class="btn btn-primary">Comece a explorar →</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#inicio" class="brand"><span class="brand-icon">Z</span> ZENITH<span class="cyan"> DIGITAL</span></a>
+    <p>Profissões do Futuro • TCA 2026</p>
+    <p>Educação, tecnologia e sustentabilidade.</p>
+    <span>© 2026 Zenith Digital — Projeto educacional.</span>
+  </footer>
+
+  <div class="modal hidden" id="profession-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Fechar">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <button class="back-top" id="back-top" aria-label="Voltar ao topo">↑</button>
+</body>
+</html>
